@@ -1,0 +1,12 @@
+SELECT * from products WHERE id = 10;
+SELECT * from products WHERE price > 20;
+SELECT * from products WHERE price > 20 AND id > 4;
+SELECT * from products WHERE price > 20 OR price < 4;
+SELECT * from products WHERE id IN (1,2,3);
+SELECT * from products WHERE name LIKE 'tv%';
+SELECT * from products ORDER BY price;
+SELECT * from products ORDER BY price DESC;
+SELECT * from products ORDER BY inventory DESC, price;
+SELECT * from products WHERE price > 40 ORDER BY inventory DESC, price;
+SELECT * from products LIMIT 10;
+SELECT * from products WHERE price >20 ORDER BY price LIMIT 3;

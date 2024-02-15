@@ -1,0 +1,2 @@
+INSERT INTO products (name, price, inventory) VALUES ('fan', 2020, 1) RETURNING *
+

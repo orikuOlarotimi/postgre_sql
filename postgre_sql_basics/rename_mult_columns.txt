@@ -1,0 +1,1 @@
+SELECT id AS product_id, inventory AS product_inv from products;
